@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 //Establishing the connection with the mongodb database
-const URL = process.env.DB;
+const URL = process.env.HUNT_DB;
 
 //Acquiring the connection
 const db = async () => {
